@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale=1">
+    <title>Activity Record: FOOD</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+    <style>
+        .ticket-list .panel-heading {
+            background-color:#F4F8F9;
+            border-bottom: none;
+        }
+        .ticket-list .panel-body {
+            background-color:#F4F8F9;
+        }
+        .ticket-list .table-head{
+            border: none;
+        }
+        @font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+div {
+   font-family: myFirstFont;
+}
+    </style>
+
+</head>
+
+
+
+<div class="container">
+	<div class="row">
+    	<div class="col-md-8 col-md-offset-2">
+    	    <div class="panel panel-default ticket-list">
+              <div class="panel-heading">
+                <h3 class="panel-title text-center">Ticket</h3>
+              </div>
+              <div id="food_rec" class="panel-body ">
+                  <table class="table">
+                    <thead class='table-head'>
+                      <tr class='table-head'>
+                            <th>Food Name</th>
+                            <th>Clicks</th>
+                            <th>Does it contain Casein?</th>
+                            <th>Does it contain Gluten?</th>
+                            <th>Calories</th>
+                            <th>Total Calories</th>
+                            <th>Protein</th>
+                            <th>Total Protein</th>
+                            <th>Cholesterol</th>
+                            <th>Total Cholesterol</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <center><button type="submit" class="button" onclick="getclicks_food();">View Record</button> <button type="submit" class="button" onclick="delete_food();">Clear All</button></center>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+    	</div>
+	</div>
+</div>

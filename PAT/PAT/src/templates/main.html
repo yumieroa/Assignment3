@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Sample Page">
+    <meta name="author" content="Sample B. Author">
+    <title>Pic-A-Talk</title>
+    <link rel="shortcut icon" href="PATicon.png" />
+<style>
+body {
+        background-image: url("PATbg5.jpg");
+}
+
+</style>
+</head>
+
+
+<body>
+
+   <div class="header">
+       <center><img src="PATheader.png" alt="logo" width="750px" height="auto"/></center>
+    </div>
+<form>
+    <center><label class="sr-only" for="email"></label></center>
+    <center><input type="email" id="email" placeholder="Email"></center>
+    <center><label class="sr-only" for="password"></label></center>
+    <center><input type="password" id="password" placeholder="Password"></center>
+  <div class="checkbox">
+    <center><label>
+      <input type="checkbox"> Remember me
+    </label></center>
+  </div>
+    <center><button type="submit" onclick="login();">Login</button></center>
+
+    <center>Don't have an account yet?</center>
+    <center><br><a class="btn btn-default" href="register.html" role="button">SIGN UP!</a></center>
+</form>
+    <script src="jQuery-2.1.4.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
